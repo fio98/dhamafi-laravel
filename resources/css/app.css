@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&family=Pacifico&display=swap');
+
+body {
+  margin: 0px;
+}
+
+.top-menu {
+  background-color: #E1E3E5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: 1px dotted #ECA4A4;
+}
+
+.top-menu a {
+  margin-right: 10px;
+}
+
+.name h1, .name p {
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  font-size: 60px;
+  margin: 0px;
+  background-color: #eff1f2;
+  border-top: inset gray 0.75px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #92DAD9;
+}
+
+main {
+  max-width: 1024px;
+  margin: auto;
+  padding: 1em;
+}
+
+.menu {
+  background-color: #E1E3E5;
+  text-align: center;
+  border-top: inset gray 0.75px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav.links a {
+  color: black;
+  margin-right: 20px;
+}
+
+nav.links a.activo {
+  color: #AC6869;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav.links a:hover,
+.pie-pagina a:hover {
+  text-decoration: underline;
+  color: #ECA4A4;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #E1E3E5;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.pie-pagina {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie {
+  border-right: solid;
+  border-color: gray;
+  border-width: 0.5px;
+}
+
+.pie-pagina img {
+  width: 100px;
+  padding: 10px;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.pie-pagina ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.pie-pagina a {
+  color: #AC6869;
+}
+
+.receta img {
+  width: 100%;
+}
+
+.info h2 {
+  font-size: 30px;
+  margin-top: 1em;
+  color: #AC6869;
+}
+
+.receta a:hover {
+  text-decoration: underline;
+  color: #ECA4A4;
+}
+
+
+.border--dashed {
+  border-style: dashed !important;
+}
+
+.t1 {
+  color: #AC6869;
+}
+
+.t2 {
+  color: #76b4b3;
+}
+
+.contenido {
+  width: 100%;
+}
+
+.zona {
+  width: 100%;
+  font-size: 50px;
+  display: block;
+  text-align: center;
+}
+
+.rosa {
+  background-color: #F7E2E1;
+}
+
+.celeste {
+  background-color: #DCEBEB;
+}
+
+.parallax {
+  height: 65vh;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 1em;
+}
+
+.parallax01 {
+  background-image: url("../img/pasteleria.jpg");
+}
+
+.parallax02 {
+  background-image: url("../img/gastronomia.jpg");
+}
+
+.parallax03 {
+  background-image: url("../img/reposteria.png");
+}
+
+.page-portafolio main {
+  display: block;
+}
+
