@@ -73,7 +73,7 @@
           <div class="card-body">
             <h5 class="card-title">Contactenos</h5>
             <p class="card-text">Estamos para servirle en lo que usted necesite.</p>
-            <a href="contacto.html" class="btn btn-primary">Escribanos!</a>
+            <a href="contacto" class="btn btn-primary">Escribanos!</a>
           </div>
         </div>
       </div>
@@ -95,7 +95,7 @@
             <p>Azúcar para quemar</p>
           </div>
           <div class="modal-footer">
-            <a href="recetas.html" class="btn btn-primary">Ver más recetas</a>
+            <a href="recetas" class="btn btn-primary">Ver más recetas</a>
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
           </div>
         </div>
@@ -116,7 +116,7 @@
             <p>Colorantes en gel</p>
           </div>
           <div class="modal-footer">
-            <a href="recetas.html" class="btn btn-primary">Ver más recetas</a>
+            <a href="recetas" class="btn btn-primary">Ver más recetas</a>
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
           </div>
         </div>
@@ -136,7 +136,7 @@
             <p>Sal</p>
           </div>
           <div class="modal-footer">
-            <a href="recetas.html" class="btn btn-primary">Ver más recetas</a>
+            <a href="recetas" class="btn btn-primary">Ver más recetas</a>
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
           </div>
         </div>

@@ -47,25 +47,25 @@
   <footer>
     <div class="col-md-5 pie-pagina pie">
       <img src="img/6Logo.jpg" alt="Logo">
-      <a href="contacto.html">Contáctenos</a>
+      <a href="contacto">Contáctenos</a>
     </div>
     <div class="col-md-5 pie-pagina">
       <h3>Menú</h3>
       <ul>
         <li>
-          <a href="index.html">Inicio</a>
+          <a href="index">Inicio</a>
         </li>
         <li>
-          <a href="acerca.html">Acerca de</a>
+          <a href="acerca">Acerca de</a>
         </li>
         <li>
-          <a href="productos.html">Productos & Servicios</a>
+          <a href="productos">Productos & Servicios</a>
         </li>
         <li>
-          <a href="recetas.html">Recetas</a>
+          <a href="recetas">Recetas</a>
         </li>
         <li>
-          <a href="contacto.html">Contacto</a>
+          <a href="contacto">Contacto</a>
         </li>
       </ul>
     </div>
