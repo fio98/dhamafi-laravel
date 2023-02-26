@@ -17,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', HomeController::class);
 Route::get('acerca', [LandingPagesController::class, 'showAcercaDe'])->name('landing.acercade');
+Route::get('productos', [LandingPagesController::class, 'showProductos'])->name('landing.productos');
+
