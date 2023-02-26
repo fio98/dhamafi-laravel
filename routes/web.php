@@ -19,4 +19,5 @@ Route::get('/', HomeController::class);
 Route::get('acerca', [LandingPagesController::class, 'showAcercaDe'])->name('landing.acercade');
 Route::get('productos', [LandingPagesController::class, 'showProductos'])->name('landing.productos');
 Route::get('recetas', [LandingPagesController::class, 'showRecetas'])->name('landing.recetas');
+Route::get('contacto', [LandingPagesController::class, 'showContacto'])->name('landing.contacto');
 

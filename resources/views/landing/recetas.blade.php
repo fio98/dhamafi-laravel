@@ -1,6 +1,6 @@
 @extends("layouts.plantilla")
 
-@section("title", "Producto & Servicios")
+@section("title", "Recetas")
 
 @section("content")
 <main>
