@@ -13,4 +13,8 @@ class LandingPagesController extends Controller
     public function showProductos() {
         return view('landing.producto');
     }
+
+    public function showRecetas() {
+        return view('landing.recetas');
+    }
 }
