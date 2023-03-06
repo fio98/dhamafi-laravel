@@ -20,7 +20,7 @@ class ProductoFactory extends Factory
     {
         return [
             'nombre' => $this->faker->randomElement(["Pastel Vainilla", "Pie Limon", "Chessecake de mora", "Key lime maracuya", "Chocotorta", "Pastel de chocolate", "Selva negra"]),
-            'precio' => $this->faker->regexify('[0-5]{5}'),
+            'precio' => $this->faker->numberBetween(15000, 20000),
             'descripcion' => $this->faker->paragraph(),
         ];
     }
