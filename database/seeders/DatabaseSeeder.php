@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
             ClienteSeeder::class,
             ProductoSeeder::class,
             info_ventaSeeder::class,
+            solicitud_cotizacionSeeder::class,
         ]);
         // \App\Models\User::factory(10)->create();
 
